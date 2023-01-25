@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emily Gomes Nutri</title>
+    <link rel="shortcut icon" href="assets/images//favIcon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+  <body>
+
+    <header class="sticky-top header d-flex align-items-center p-2 border-bottom border-white bgHeaderColor">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="logo">
+            </div>
+            <nav class="navbar gap-3">
+                <a href="#home" class="p-3 text-decoration-none position-relative">Home</a>
+                <a href="#about" class="p-3 text-decoration-none position-relative">Sobre mim</a>
+                <a href="#services" class="p-3 text-decoration-none position-relative">Serviços</a>
+                <a href="#clientTestimonials" class="p-3 text-decoration-none position-relative">Depoimentos</a>
+                <a href="#" class="p-3 text-decoration-none position-relative">Blog</a>
+                <a href="#contact" class="p-3 text-decoration-none position-relative rounded-5">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+      <section id="home" class="home bgHeaderColor">
+        <div class="container d-flex py-5">
+            <div class="textContent d-flex flex-column justify-content-center row-gap-2">
+              <span class="text-secondary-emphasis">Transformando vidas dia após dia</span>
+              <h1 class="h1 hColorPrimary">Nutri Emily Gomes</h1>
+              <h5 class="h5 text-success-emphasis">Nutricionista clínica e esportiva</h5>
+              <a href="#contact" class="btn btn-success">Entre em contato</a>
+            </div>
+            <div class="image">
+              <img src="assets/images/ilustracaoPessoaHome.png" alt="illustration athlete" class="rounded-circle">
+            </div>
+        </div>
+      </section>
+
+      <section id="about" class="about bg-light">
+          <div class="container p-5">
+            <div class="title text-center">
+              <h2 class="h2 hColorPrimary">Quem é a nutri?</h2>
+            </div>
+            <div class="alignDivs d-flex mt-5 py-5 justify-content-between">
+              <div class="image">
+                <img src="assets/images/fotoDoutora.jpg" alt="Foto da doutora" class="rounded-circle">
+              </div>
+              <div class="textContent align-self-center">
+
+                <h3 class="h3 pb-4 text-success">Olá, me chamo Emily Gomes</h3>
+                <p>E sou nutricionista clínica e esportiva (CRN 6404) e, desde meus primeiros dias de formada, em outubro de 2011, dedico todo meu trabalho ao atendimento individualizado de pacientes em consultório. Tenho amor ao meu trabalho pois através dele pude trazer mais saúde a mais de 3 mil pacientes durante todo esse período.
+                  <br>No trabalho que exerço com os pacientes procuro descomplicar a nutrição tornando o acompanhamento nutricional mais prazeroso e sem modismos.</p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="services" class="services bgHeaderColor py-5">
+        <div class="title text-center"> 
+          <h2 class="h2 hColorPrimary">Serviços</h2>
+        </div>
+        <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner servicesLayout">
+            <div class="carousel-item active servicesItems">
+              <div class="container d-flex align-items-center py-5">
+                <div class="image text-center">
+                  <img src="assets/images/nutriClinica.jpg" alt="imagem nutri clinica" class="rounded-circle pe-5">
+                </div>
+                <div class="textContent">
+                  <h3 class="h3 text-success">Nutrição clínica</h3>
+                  <p>
+                    Você está de saco cheio de se sentir cansado e sem energia? Você está lutando para perder peso ou controlar uma doença crônica? Eu, posso ajudá-lo(a) a alcançar seus objetivos de saúde através de uma alimentação adequada. Trabalharei com você de forma personalizada para desenvolver um plano alimentar que se ajuste às suas necessidades e preferências individuais. Seja para melhorar sua saúde geral, perder peso ou controlar uma doença crônica, eu estarei lá para guiá-lo através do processo para que você possa alcançar seus objetivos de saúde.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item servicesItems">
+              <div class="container d-flex align-items-center py-5">
+                <div class="image text-center">
+                  <img src="assets/images/nutriEsportiva.jpg" alt="Imagem nutrição esportiva" class="rounded-circle">
+                </div>
+                <div class="textContent">
+                  <h3 class="h3 text-success">Nutrição Esportiva</h3>
+                  <p>
+                    Vou te ajudar a identificar as falhas e otimizar a sua necessidade nutricional para melhorar o seu desempenho esportivo. Analisando todos os fatores que impactam a vida de todo atleta ou desportista. Como nível de treino, sua recuperação, periodização, sono, intestino, questões emocionais e rotina. Não deixando faltar nada para o seu corpo funcione como uma verdadeira máquina de desempenho.
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="clientTestimonials" class="clientTestimonials">
+        <div class="container p-5">
+          <div class="title text-center">
+            <h2 class="h2 hColorPrimary">Depoimentos</h2>
+          </div>
+
+          <div class="clients d-flex justify-content-between mt-5 pt-5">
+            <div class="client position-relative rounded p-3">
+              <div class="profilePhoto">
+                <img src="assets/images/cliente1.jpg" alt="foto do cliente" class="position-absolute rounded-circle top-0">
+              </div>
+              <div class="textContent mt-5">
+                <h4 class="hColorPrimary">Júlio Pereira</h4>
+                <span class="text-secondary">Professor</span>
+                <p class="mt-3">
+                  <i class="hColorPrimary">"</i> Eu estava lutando para controlar a minha diabetes e estava me sentindo cansado e sem energia, mas desde que comecei a trabalhar com a Dra. Emily a minha saúde melhorou drasticamente. Ela me ajudou a encontrar alimentos que eu gosto e que são bons para minha saúde e minhas taxas de açúcar no sangue melhoraram muito.<i class="hColorPrimary">"</i>
+                </p>
+              </div>
+            </div>
+            <div class="client position-relative rounded p-3">
+              <div class="profilePhoto">
+                <img src="assets/images/cliente2.jpg" alt="foto do cliente" class="position-absolute rounded-circle top-0">
+              </div>
+              <div class="textContent mt-5">
+                <h4 class="hColorPrimary">Isabela Luz</h4>
+                <span class="text-secondary">Promotora</span>
+                <p class="mt-3">
+                  <i class="hColorPrimary">"</i> Eu estava com dificuldade para perder peso, mas com o plano alimentar personalizado da nutri, finalmente consegui alcançar meus objetivos de perda de peso. Ela me ensinou como comer de forma saudável e equilibrada e agora me sinto mais energizado e saudável do que nunca.<i class="hColorPrimary">"</i>
+                </p>
+              </div>
+            </div>
+            <div class="client position-relative rounded p-3">
+              <div class="profilePhoto">
+                <img src="assets/images/cliente3.jpg" alt="foto do cliente" class="position-absolute rounded-circle top-0">
+              </div>
+              <div class="textContent mt-5">
+                <h4 class="hColorPrimary">Fernanda Oliveira</h4>
+                <span class="text-secondary">Pediatra</span>
+                <p class="mt-3">
+                  <i class="hColorPrimary">"</i> Eu sempre tive problemas para controlar minhas alergias alimentares, mas desde que comecei a trabalhar com a Dra. Emily, ela me ajudou a encontrar alimentos alternativos e minhas alergias melhoraram significativamente.<i class="hColorPrimary">"</i>
+                </p>
+              </div>
+            </div>
+            <div class="client position-relative rounded p-3">
+              <div class="profilePhoto">
+                <img src="assets/images/cliente4.jpg" alt="foto do cliente" class="position-absolute rounded-circle top-0">
+              </div>
+              <div class="textContent mt-5">
+                <h4 class="hColorPrimary">Gabriel Carvalho</h4>
+                <span class="text-secondary">Dentista</span>
+                <p class="mt-3">
+                  <i class="hColorPrimary">"</i> Eu sempre tive problemas para ganhar peso, mas desde que comecei a trabalhar com a Doutora, consegui aumentar minha massa muscular e me sinto mais forte, saudável e com muito mais energia.<i class="hColorPrimary">"</i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact bgHeaderColor">
+        <div class="container p-5">
+          <div class="title text-center">
+            <h2 class="hColorPrimary">Entre em contato comigo</h2>
+          </div>
+          <div class="contactMain d-flex justify-content-between pt-5">
+
+            <div class="left p-3">
+              <h3 class="text-success">Agende um horário</h3>
+              <p>Me chame no whatsapp ou entre em contato pelo email.</p>
+              <a href="https://wa.me/5599999999999?text=Ol%C3%A1+doutura%2C+tudo+bem+com+voc%C3%AA%3F+Eu+quero+saber+mais+sobre+o+seu+trabalho." target="_blank" class="d-block text-decoration-none mb-2 text-dark-emphasis">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#6cb40c" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                </svg> (99) 9 9999-9999
+              </a>
+            
+              <a href="mailto: contato@emilynutri.com?subject=Olá Doutora, eu gostaria de marcar uma consulta." class="d-block text-decoration-none text-dark-emphasis">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#6cb40c" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+                contato@emilynutri.com
+              </a>
+
+              <h4 class="text-success my-4">Ou me visite em:</h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15670.943530811634!2d-37.072219849999996!3d-10.907666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1674606732353!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right  p-3">
+              <h4 class="text-success mb-4">Ou me mande uma mensagem por:</h4>
+              <form id="form" class="d-flex flex-column">
+                <label for="name" class="mb-2 hColorPrimary">Nome</label>
+                <input type="text" name="nome" id="name" placeholder="Digite o seu nome" class="p-2 rounded mb-3">
+                <label for="number" class="mb-2 hColorPrimary">Número</label>
+                <input type="numer" name="number" id="number" placeholder="Digite o seu número" class="p-2 rounded mb-3">
+                <label for="email" class="mb-2 hColorPrimary">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" class="p-2 rounded mb-3">
+                <label for="message" class="mb-2 hColorPrimary">Mensagem <span class="text-success">(Não obrigatório)</span></label>
+                <textarea name="message" id="message" cols="30" rows="10" class="rounded"></textarea>
+                <input type="submit" class="btn mt-3 bg-success text-light" value="Enviar">
+              </form> 
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bgHeaderColor border-top border-2 border-white">
+      <div class="container p-5 text-center">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="logo" class="mb-3">
+          <p>© 2023 - Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="assets/js/validateForm.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

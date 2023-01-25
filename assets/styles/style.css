@@ -1,0 +1,162 @@
+@import url(./variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100px;
+}
+
+.bgHeaderColor {
+    background-color: var(--bgHeaderColor);
+}
+
+.header .container,
+.header .logo,
+.header .logo img {
+    height: 95%;
+}
+
+.header .navbar a {
+    color: var(--primaryColor);
+}
+
+.header .navbar a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: var(--primaryColor);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 500ms ease;
+}
+
+.header .navbar a:hover::after {
+    width: 100%;
+}
+
+.header .navbar a:last-child {
+    border: 2px solid var(--primaryColor);
+    transition: all 500ms ease;
+}
+ 
+.header .navbar a:last-child:hover::after {
+    width: 0;
+}
+
+.header .navbar a:last-child:hover {
+    background-color: var(--primaryColor);
+    color: var(--white);
+}
+
+.textContent, .image {
+    width: 50%;
+}
+
+.hColorPrimary {
+    color: var(--primaryColor);
+}
+
+.home .container .textContent a {
+    width: 70%;
+}
+
+.home .container .image img {
+    width: 100%;
+}
+
+.about .container .image img {
+    width: 70%;
+}
+
+.servicesLayout {
+    height: 22rem;
+}
+
+.servicesItems .textContent {
+    width: 45%;
+}
+
+.servicesLayout .servicesItems,
+.servicesItems .container,
+.servicesItems .container .image,
+.servicesItems .container .image img {
+    height: 100%;
+}
+
+.clients .client {
+    width: 23%;
+    background-color: var(--bgHeaderColor);
+    transition: all 200ms ease;
+}
+
+.clients .client:hover {
+    transform: scale(1.1);
+    box-shadow:0 0 15px rgb(105, 105, 105);
+}
+
+.clients .client .textContent {
+    width: 100%;
+}
+
+.clients .client img {
+    width: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid var(--primaryColor);
+}
+
+.clients .client .textContent span {
+    font-size: 0.9rem;
+}
+
+.clients .client .textContent p {
+    font-size: 0.95rem;
+}
+
+.contact .left {
+    width: 60%;
+}
+
+.contact .right {
+    width: 40%;
+}
+
+.contact .left a {
+    width: fit-content;
+}
+
+.contact .left a > svg path {
+    transition: all 500ms ease;
+}
+
+.contact .left a:hover > svg path {
+    fill: rgb(150, 199, 52);
+}
+
+.contact .left iframe{
+    width: 80%;
+}
+
+.contact .right input,
+.contact .right textarea {
+    outline-color: var(--primaryColor);
+    border: none;
+}
+
+.contact .right input:last-child:hover {
+    background-color: var(--primaryColor) !important;
+}
+
+.contact .right textarea {
+    resize: none;
+}
+
+.footer .logo img{
+    width: 20%;
+}
