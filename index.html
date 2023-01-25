@@ -192,15 +192,15 @@
             <div class="right  p-3">
               <h4 class="text-success mb-4">Ou me mande uma mensagem por:</h4>
               <form id="form" class="d-flex flex-column">
-                <label for="name" class="mb-2 hColorPrimary">Nome</label>
-                <input type="text" name="nome" id="name" placeholder="Digite o seu nome" class="p-2 rounded mb-3">
-                <label for="number" class="mb-2 hColorPrimary">Número</label>
-                <input type="numer" name="number" id="number" placeholder="Digite o seu número" class="p-2 rounded mb-3">
+                <label for="pName" class="mb-2 hColorPrimary">Nome</label>
+                <input type="text" name="nome" id="pName" placeholder="Digite o seu nome" class="p-2 rounded mb-3">
+                <label for="phone" class="mb-2 hColorPrimary">Número</label>
+                <input type="tel" name="phone" id="phone" placeholder="Digite o seu número" class="p-2 rounded mb-3" maxlength="15">
                 <label for="email" class="mb-2 hColorPrimary">E-mail</label>
                 <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" class="p-2 rounded mb-3">
                 <label for="message" class="mb-2 hColorPrimary">Mensagem <span class="text-success">(Não obrigatório)</span></label>
                 <textarea name="message" id="message" cols="30" rows="10" class="rounded"></textarea>
-                <input type="submit" class="btn mt-3 bg-success text-light" value="Enviar">
+                <input type="submit" class="btn mt-3 bg-success text-light" id="submitButton" value="Enviar">
               </form> 
             </div>
           </div>
